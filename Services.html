@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>My Services</title>
+</head>
+<style>
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(19, 19, 119);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(157, 98, 145);
+        font-size: 1.4rem;
+      }
+      .left {
+        font-size: 1.5rem;
+        color: white;
+      }
+    .services{
+          background: rgb(0, 0, 33);
+          width: 100%;
+          padding: 35px 0px;
+    }
+    .title h2{
+        color: white;
+        font-size: 75px;
+        width: 1130px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+    }
+    .card{
+        height: 365px;
+        width: 335px;
+        padding: 20px 35px;
+        background: #77187a;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+    }
+    .card i{
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0;
+        color: rgba(179, 222, 242, 0.571);
+    }
+    h5{
+        color: white;
+        font-size: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .pra p{
+        color: rgb(190, 175, 94);
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+        text-align: center;
+    }  
+    .card .button{
+        background-color: #950835;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: 0.4s;
+    }
+    .card .button:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+    }
+    footer {
+        background-color: rgb(28, 8, 69);
+        height: 150px;
+      }
+      .footer {
+        display: flex;
+        padding: 5px 123px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer ul li a:hover{
+        color: rgb(185, 37, 244);
+      }
+      .footer ul li a{
+        color: azure;
+      }
+      .footer-first{
+        color: aliceblue;
+      }
+      footer .footer-text-center {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+</style>
+<body>
+    <header>
+        <nav>
+          <div class="left">Chandana's Portfolio</div>
+          <div class="right">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="Projects.html">Projects</a></li>
+              <li><a href="Contact.html">Contact us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <div class="services">
+        <div class="title">
+            <h2>My Skills</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals:Firstly it needs 
+                        to work in all devices.Secondly it needs to be fast.
+                    </p>
+                    <p style="text-align: center;">
+                    <!-- <a class="button" href="http:#">Read More</a></p> -->
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-bell"></i>
+                <h5>Front-end Development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals:Firstly it needs 
+                        to work in all devices.Secondly it needs to be fast.
+                    </p>
+                    <p style="text-align: center;">
+                    <!-- <a class="button" href="http:#">Read More</a></p> -->
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-user"></i>
+                <h5>full stack development</h5>
+                <div class="pra">
+                    <p>Every website should be built with two primary goals:Firstly it needs 
+                        to work in all devices.Secondly it needs to be fast.
+                    </p>
+                    <p style="text-align: center;">
+                    <!-- <a class="button" href="http:#">Read More</a></p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+          <div class="footer-first">
+            <h3>Reach me at: kchandana1869@gmail.com</h3>
+          </div>
+          <div class="footer-second">
+            <ul>
+              <li> <a href="https://www.linkedin.com/in/kotla-chandana/" title="">Linkedin</a></li>
+              <li> <a href="https://www.instagram.com/chandana4393/>">Instagram</a></li>
+              <li><a href="https://github.com/chandana-kotla/">Github</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="footer-text-center">
+      Copyright &#169; chandanasportfolio.com | All rights reserved
+    </div>
+  </footer>
+</body>
+</html>

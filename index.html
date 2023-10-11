@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chandana Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(19, 19, 119);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(157, 98, 145);
+        font-size: 1.4rem;
+      }
+      main hr {
+        border: 0;
+        background: plum;
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 2.5rem;
+      }
+      .leftsection .buttons {
+        padding: 20px;
+      }
+      .leftsection .btn {
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2ps solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightsection img {
+        width: 90%;
+      }
+      .purple {
+        color: rgb(199, 147, 248);
+      }
+      #element {
+        color: rgb(199, 147, 248);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondsection h1 {
+        font-size: 1.9rem;
+      }
+      .secondsection .box {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .Vertical {
+        height: 93px;
+        width: 1px;
+        background-color: rgb(247, 242, 242);
+        margin: 0 170px;
+      }
+      .text-gray {
+        color: rgb(199, 143, 250);
+      }
+      .image-top {
+        width: 30px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 200px;
+        font-size: 15px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 80px;
+        color: gray;
+        width: 250px;
+        font-size: 13px;
+      }
+      footer {
+        background-color: rgb(28, 8, 69);
+        height: 110px;
+      }
+      .footer {
+        display: flex;
+        padding: 5px 123px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer ul li a:hover{
+        color: rgb(185, 37, 244);
+      }
+      .footer ul li a{
+        color: azure;
+      }
+      footer .footer-text-center {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      /* @media screen and (max-width: 2000px) {
+        .box{
+          flex-direction: column;
+        }
+        .secondsection .Vertical{
+          height: unset;
+        }
+        .vertical-title,.vertical-desc{
+          left: 45px;
+        }
+        .secondsection .box{
+          width: 50vw;
+        }
+        nav{
+          flex-direction: column;
+        }
+        footer{
+          display: none;
+        }
+        .firstsection{
+          flex-direction: column-reverse;
+        }
+        .leftsection{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Chandana's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Chandana</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="CHANDANA_KOTLA_RESUME.pdf">
+              <button class="btn">Download resume</button>
+            </a>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">what have I done so far</span>
+        <h1>My Education</h1>
+
+        <div class="box">
+          <div class="Vertical">
+            <img src="school.jpg" alt="" class="image-top" />
+            <div class="vertical-title">
+              State Board of Secondary Education
+              <span>(2016)</span>
+            </div>
+            <div class="vertical-desc">
+              I have done my 10th grade in Sri chaitanya childre's Academy. I
+              have completed my 10th grade with a percentage of 78%.
+            </div>
+          </div>
+          <div class="Vertical">
+            <img src="college.jpg" alt="" class="image-top" />
+            <div class="vertical-title">
+              Intermediate (12th class)
+              <span>(2016-2018)</span>
+            </div>
+            <div class="vertical-desc">
+              I completed my intermediate education at Sri Chaitanya College,
+              where I pursued a major in MPC (Mathematics, Physics, and
+              Chemistry). I earned an outstanding 91.1% in my intermediate
+              examinations.
+            </div>
+          </div>
+          <div class="Vertical">
+            <img src="vit.jpg" alt="" class="image-top" />
+            <div class="vertical-title">
+              Integrated M.Tech in Software Engineering
+              <span>(2018-2023)</span>
+            </div>
+            <div class="vertical-desc">
+              I have completed my master's degree in Software engineering in
+              Vellore Institute of Technology. I have Obtained 83.8% in my
+              degree.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Reach me at: kchandana1869@gmail.com</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li> <a href="https://www.linkedin.com/in/kotla-chandana/" title="">Linkedin</a></li>
+            <li> <a href="https://www.instagram.com/chandana4393/>">Instagram</a></li>
+            <li><a href="https://github.com/chandana-kotla/">Github</a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <!-- <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>contact us</li>
+          </ul> -->
+        </div>
+        <div class="footer-fourth">
+          <!-- <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>contact us</li>
+          </ul> -->
+        </div>
+      </div>
+      <div class="footer-text-center">
+        Copyright &#169; chandanasportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer.",
+          "Web Designer.",
+          " Front-end Developer.",
+          "UI Developer.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(19, 19, 119);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(157, 98, 145);
+        font-size: 1.4rem;
+      }
+      .left {
+        font-size: 1.5rem;
+        color: white;
+      }
+        .about{
+            width: 100%;
+            padding: 100px 0px;
+            background-color: rgb(4, 21, 57);
+        }
+        .about img{
+            height: auto;
+            width: 400px;
+        }
+        .about-text{
+             width: 550px;
+        }
+        .main{
+           width: 1130px;
+           max-width: 95%;
+           margin: 0 auto;
+           display: flex;
+           align-items: center;
+           justify-content: space-around; 
+        }
+        .about-text h2{
+            color: black;
+            font-size: 75px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+        .about-text h5{
+            color: black;
+            letter-spacing: 2px;
+            font-size: 22px;
+            margin-bottom: 25px;
+            text-transform: capitalize;
+        }
+        .about-text p{
+            color: palevioletred;
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;
+        }
+        button{
+            background-color: rgb(56, 56, 116);
+            color: rgb(249, 245, 245);
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 13px 30px;
+            border-radius: 30px;
+            transition: .4s;
+        }
+        button:hover{
+            background-color: transparent;
+            color: black;
+            border: 2px solid palevioletred;
+            cursor: pointer;
+            display: inline;
+        }
+        footer {
+        background-color: rgb(28, 8, 69);
+        height: 150px;
+      }
+      .footer {
+        display: flex;
+        padding: 5px 123px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer ul li a:hover{
+        color: rgb(185, 37, 244);
+      }
+      .footer ul li a{
+        color: azure;
+      }
+      .footer-first{
+        color: aliceblue;
+      }
+      footer .footer-text-center {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="left">Chandana's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="about">
+        <div class="main">
+            <img src="chandu.jpg" alt="Chandana" srcset="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Designer</span></h5>
+                <p>Hey guys!! This is Chandana, as a recent graduate with a master's degree from 
+                    Vellore Institute of Technology.I bring strong communication and leadership
+                    skills to the table. My commitment to continuous improvement through learning
+                    from my mistakes is a driving force in my personal and professional development.
+                    I’m looking forward to becoming a part of a creative team that is passionate
+                    about creating outstanding work</p>
+                <button type="button">Let's Talk</button>    
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+          <div class="footer-first">
+            <h3>Reach me at: kchandana1869@gmail.com</h3>
+          </div>
+          <div class="footer-second">
+            <ul>
+              <li> <a href="https://www.linkedin.com/in/kotla-chandana/" title="">Linkedin</a></li>
+              <li> <a href="https://www.instagram.com/chandana4393/>">Instagram</a></li>
+              <li><a href="https://github.com/chandana-kotla/">Github</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="footer-text-center">
+      Copyright &#169; chandanasportfolio.com | All rights reserved
+    </div>
+  </footer>
+</body>
+</html>
